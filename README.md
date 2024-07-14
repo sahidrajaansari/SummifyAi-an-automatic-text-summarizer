@@ -39,7 +39,7 @@ The SummifyAI project aims to provide an efficient solution for summarizing vari
 ## Demo
 Check out the demo video of the SummifyAI application:
 
-[![Watch the video](./Screenshot/homeDark.png)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[![Watch the video](./Screenshot/homeDark.png)](https://youtu.be/_7cHaofl5uA)
 
 ## Screenshots
 
