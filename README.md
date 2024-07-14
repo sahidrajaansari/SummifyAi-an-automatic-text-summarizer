@@ -107,26 +107,44 @@ Follow these steps to set up the project for development:
 SummifyAI-an-Automatic-text-summarizer/
 │
 ├── backend/
-│   ├── main.py             # FastAPI application
-│   ├── model.py            # Model loading and summarization logic
-│   ├── requirements.txt    # Backend dependencies
-│   └── ...
+│   ├── src/
+│   │   ├── controller/      # Business logic for handling requests
+│   │   ├── db/              # Database configuration and connection
+│   │   ├── models/          # Database models
+│   │   ├── router/          # API routes
+│   │   ├── app.js           # Application setup and middleware
+│   │   └── index.js         # Entry point for the backend server
+│   └── .env                 # Environment variables for the backend
 │
 ├── frontend/
 │   ├── src/
 │   │   ├── components/     # React components
-│   │   ├── contexts/       # Context API setup
+│   │   ├── Context/        # Context API setup
+│   │   ├── Services/       # API services and requests
+│   │   ├── pages/          # Application pages
 │   │   ├── App.jsx         # Main application file
-│   │   ├── index.js        # Entry point
-│   │   └── ...
+│   │   └── index.js        # Entry point
 │   ├── public/             # Public assets
+│   ├── .env                 # Environment variables for the frontend
 │   ├── package.json        # Frontend dependencies
 │   └── ...
 │
-├── notebooks/              # Jupyter notebooks for model testing
-│   └── SummifyAI_testing.ipynb
+├── research/
+│   ├── src/
+│   │   ├── textSummarizer/
+│   │   │   ├── config/      # Configuration files
+│   │   │   ├── constant/    # Constants and enums
+│   │   │   ├── entity/      # Data entities and schemas
+│   │   │   ├── logging/     # Logging setup
+│   │   │   ├── pipeline/    # Data processing pipeline
+│   │   │   └── utils/       # Utility functions
+│   │   ├── app.py           # API for the model
+│   │   ├── main.py          # Model training script
+│   │   └── .env             # Environment variables for the model
+│   └── research/           # Jupyter notebooks for model testing
 │
 └── README.md               # Project documentation
+
 ```
 
 ## Contributing
