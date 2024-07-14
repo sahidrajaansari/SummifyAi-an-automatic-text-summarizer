@@ -7,6 +7,7 @@ SummifyAI is an advanced text summarization project that leverages the state-of-
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Demo](#demo)
+- [Screenshots](#screentshots)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
