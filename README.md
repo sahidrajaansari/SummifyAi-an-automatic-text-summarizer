@@ -42,8 +42,57 @@ The SummifyAI project aims to provide an efficient solution for summarizing vari
 - MongoDB
 - npm (Node Package Manager)
 
-### Backend Setup
-1. Clone the repository:
+### Setup
+
+Follow these steps to set up the project for development:
+
+1. **Clone the Repository**
+   Clone the repository to your local machine:
    ```sh
    git clone https://github.com/your-username/SummifyAI-an-Automatic-text-summarizer.git
    cd SummifyAI-an-Automatic-text-summarizer
+   ```
+
+2. **Frontend Setup**
+   Navigate to the `Frontend` directory and set up the environment variables:
+   - Create a `.env` file with the following variables:
+     ```
+     VITE_MODEL_URL=<URL of the backend API>
+     VITE_CLERK_PUBLISHABLE_KEY=<Your Clerk Publishable Key>
+     ```
+   - Install dependencies and start the development server:
+     ```sh
+     cd Frontend
+     npm install
+     npm run dev
+     ```
+
+3. **Backend Setup**
+   Navigate to the root of the repository and set up the environment variables:
+   - Create a `.env` file with the following variables:
+     ```
+     MONGODB_URI=<Your MongoDB URI>
+     PORT=<Port number for the backend server>
+     MODEL_API_URL=<URL of the model API>
+     ```
+   - Install dependencies and start the backend server:
+     ```sh
+     npm install
+     node src/index.js
+     ```
+
+4. **Model Setup**
+   Set up the model environment and start the model server:
+   - Create a virtual environment and activate it:
+     ```sh
+     python -m venv venv
+     source venv/bin/activate   # On Windows: venv\Scripts\activate
+     ```
+   - Install the model dependencies:
+     ```sh
+     pip install -r requirements.txt
+     ```
+   - Run the model server:
+     ```sh
+     python app.py
+     ```
