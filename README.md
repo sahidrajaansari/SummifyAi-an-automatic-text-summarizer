@@ -96,3 +96,42 @@ Follow these steps to set up the project for development:
      ```sh
      python app.py
      ```
+
+## Usage
+1. Ensure that both the backend and frontend servers are running.
+2. Open your browser and navigate to `http://localhost:3000` to access the SummifyAI web application.
+3. Authenticate using Clerk and start summarizing your text data
+
+## Project Structure
+```
+SummifyAI-an-Automatic-text-summarizer/
+│
+├── backend/
+│   ├── main.py             # FastAPI application
+│   ├── model.py            # Model loading and summarization logic
+│   ├── requirements.txt    # Backend dependencies
+│   └── ...
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/     # React components
+│   │   ├── contexts/       # Context API setup
+│   │   ├── App.jsx         # Main application file
+│   │   ├── index.js        # Entry point
+│   │   └── ...
+│   ├── public/             # Public assets
+│   ├── package.json        # Frontend dependencies
+│   └── ...
+│
+├── notebooks/              # Jupyter notebooks for model testing
+│   └── SummifyAI_testing.ipynb
+│
+└── README.md               # Project documentation
+```
+
+## Contributing
+Contributions are welcome! Please fork this repository and submit a pull request with your changes.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+```
