@@ -7,7 +7,7 @@ SummifyAI is an advanced text summarization project that leverages the state-of-
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Demo](#demo)
-- [Screenshots](#screentshots)
+- [Screenshots](#screenshots)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
@@ -34,10 +34,20 @@ The SummifyAI project aims to provide an efficient solution for summarizing vari
 - **Model**: Pegasus Text Summarizer
 - **Database**: MongoDB
 - **Authentication**: Clerk
-- **Development Tools**: Jupyter Notebook, Postman(for model testing)
+- **Development Tools**: Jupyter Notebook, Postman (for model testing)
 
-##Demo
+## Demo
+Check out the demo video of the SummifyAI application:
+
 [![Watch the video](./Screenshot/homeDark.png)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+
+## Screenshots
+Here are some screenshots of the SummifyAI application:
+
+![Homepage Screenshot](./Screenshot/homeLight.png)
+![Sign Screenshot](./Screenshot/Signin.png)
+![Summary Page Screenshot](./Screenshot/generateSummary.png)
+![Dashboard Screenshot](./Screenshot/Dashboard.png)
 
 ## Installation
 
@@ -82,6 +92,7 @@ Follow these steps to set up the project for development:
      ```
    - Install dependencies and start the backend server:
      ```sh
+     cd Backend
      npm install
      node src/index.js
      ```
@@ -105,7 +116,7 @@ Follow these steps to set up the project for development:
 ## Usage
 1. Ensure that both the backend and frontend servers are running.
 2. Open your browser and navigate to `http://localhost:3000` to access the SummifyAI web application.
-3. Authenticate using Clerk and start summarizing your text data
+3. Authenticate using Clerk and start summarizing your text data.
 
 ## Project Structure
 ```
