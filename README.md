@@ -42,11 +42,19 @@ Check out the demo video of the SummifyAI application:
 [![Watch the video](./Screenshot/homeDark.png)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
 ## Screenshots
+
 Here are some screenshots of the SummifyAI application:
 
+### Homepage
 ![Homepage Screenshot](./Screenshot/homeLight.png)
-![Sign Screenshot](./Screenshot/Signin.png)
+
+### Sign In
+![Sign In Screenshot](./Screenshot/Signin.png)
+
+### Summary Page
 ![Summary Page Screenshot](./Screenshot/generateSummary.png)
+
+### Dashboard
 ![Dashboard Screenshot](./Screenshot/Dashboard.png)
 
 ## Installation
@@ -83,7 +91,7 @@ Follow these steps to set up the project for development:
      ```
 
 3. **Backend Setup**
-   Navigate to the root of the repository and set up the environment variables:
+   Navigate to the `Backend` directory and set up the environment variables:
    - Create a `.env` file with the following variables:
      ```
      MONGODB_URI=<Your MongoDB URI>
@@ -166,4 +174,3 @@ Contributions are welcome! Please fork this repository and submit a pull request
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
