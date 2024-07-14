@@ -1,6 +1,6 @@
 # SummifyAI - An Automatic Text Summarizer
 
-SummifyAI is an advanced text summarization project that leverages the state-of-the-art Pegasus model to generate concise and accurate summaries of chat data. This project includes model training, API creation, and a web application for user interaction.
+SummifyAI is an advanced text summarization project that leverages the state-of-the-art Pegasus model to generate concise and accurate summaries for various types of text, including general content and chat conversations. This project includes model training, API creation, and a web application for user interaction.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -13,10 +13,11 @@ SummifyAI is an advanced text summarization project that leverages the state-of-
 - [License](#license)
 
 ## Overview
-The SummifyAI project aims to provide an efficient solution for summarizing chat conversations. It utilizes the Pegasus text summarization model, which has been fine-tuned on the Samsum dataset to achieve a ROUGE-1 score of 23%. The project includes a FastAPI-based backend for API services and a Vite-powered React frontend for user interaction.
+The SummifyAI project aims to provide an efficient solution for summarizing various types of text, including chat conversations and general content. It utilizes the Pegasus text summarization model, which has been fine-tuned on the Samsum dataset to achieve a ROUGE-1 score of 23%. The project includes a FastAPI-based backend for API services and a Vite-powered React frontend for user interaction.
 
 ## Features
 - **State-of-the-Art Summarization**: Uses the Pegasus model for high-quality text summarization.
+- **General and Chat Summarization**: Capable of summarizing both general text content and chat conversations.
 - **API Services**: FastAPI backend for summarization requests.
 - **Responsive Web Application**: Built with Vite React, featuring a modern UI and smooth user experience.
 - **State Management**: Utilizes Context API for efficient state management.
@@ -31,7 +32,7 @@ The SummifyAI project aims to provide an efficient solution for summarizing chat
 - **Model**: Pegasus Text Summarizer
 - **Database**: MongoDB
 - **Authentication**: Clerk
-- **Development Tools**: Jupyter Notebook (for model testing)
+- **Development Tools**: Jupyter Notebook, Postman(for model testing)
 
 ## Installation
 
