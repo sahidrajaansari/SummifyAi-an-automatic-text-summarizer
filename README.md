@@ -37,7 +37,7 @@ The SummifyAI project aims to provide an efficient solution for summarizing vari
 - **Development Tools**: Jupyter Notebook, Postman(for model testing)
 
 ##Demo
-[![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/hqdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[![Watch the video](./Screenshot/homeDark.png)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
 ## Installation
 
