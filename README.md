@@ -6,6 +6,7 @@ SummifyAI is an advanced text summarization project that leverages the state-of-
 - [Overview](#overview)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
+- [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
@@ -33,6 +34,9 @@ The SummifyAI project aims to provide an efficient solution for summarizing vari
 - **Database**: MongoDB
 - **Authentication**: Clerk
 - **Development Tools**: Jupyter Notebook, Postman(for model testing)
+
+##Demo
+[![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/hqdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
 ## Installation
 
