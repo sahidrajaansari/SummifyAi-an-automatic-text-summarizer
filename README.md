@@ -106,7 +106,7 @@ Follow these steps to set up the project for development:
 ```
 SummifyAI-an-Automatic-text-summarizer/
 │
-├── backend/
+├── Backend/
 │   ├── src/
 │   │   ├── controller/      # Business logic for handling requests
 │   │   ├── db/              # Database configuration and connection
@@ -116,7 +116,7 @@ SummifyAI-an-Automatic-text-summarizer/
 │   │   └── index.js         # Entry point for the backend server
 │   └── .env                 # Environment variables for the backend
 │
-├── frontend/
+├── Frontend/
 │   ├── src/
 │   │   ├── components/     # React components
 │   │   ├── Context/        # Context API setup
@@ -129,7 +129,7 @@ SummifyAI-an-Automatic-text-summarizer/
 │   ├── package.json        # Frontend dependencies
 │   └── ...
 │
-├── research/
+├── Model/
 │   ├── src/
 │   │   ├── textSummarizer/
 │   │   │   ├── config/      # Configuration files
@@ -138,13 +138,11 @@ SummifyAI-an-Automatic-text-summarizer/
 │   │   │   ├── logging/     # Logging setup
 │   │   │   ├── pipeline/    # Data processing pipeline
 │   │   │   └── utils/       # Utility functions
-│   │   ├── app.py           # API for the model
-│   │   ├── main.py          # Model training script
-│   │   └── .env             # Environment variables for the model
+│   ├── app.py               # API for the model
+│   ├── main.py              # Model training script
 │   └── research/           # Jupyter notebooks for model testing
 │
 └── README.md               # Project documentation
-
 ```
 
 ## Contributing
