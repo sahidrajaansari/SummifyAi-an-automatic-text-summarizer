@@ -20,7 +20,8 @@ Explore the SummifyAI application using the following credentials:
   ```sh
   kimos89467@reebsd.com
   ```
-- **Password:** ```sh
+- **Password:**
+  ```sh
   asdfghjkl012
   ```
 
