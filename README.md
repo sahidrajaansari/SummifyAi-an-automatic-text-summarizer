@@ -14,6 +14,20 @@ SummifyAI is an advanced text summarization project that leverages the state-of-
 - [Contributing](#contributing)
 - [License](#license)
 
+## Demo
+To try out the SummifyAI application, use the following demo credentials:
+
+- **Email**: demo@example.com
+- **Password**: demoPassword123
+
+### Live Website
+You can access the live SummifyAI application here: [SummifyAI Live](https://your-website-url.com)
+
+### Demo Video
+Check out the demo video of the SummifyAI application here:[youtube](https://youtu.be/_7cHaofl5uA)
+
+[![thumbNailDark](./Screenshot/homeDark.png)]
+
 ## Overview
 The SummifyAI project aims to provide an efficient solution for summarizing various types of text, including chat conversations and general content. It utilizes the Pegasus text summarization model, which has been fine-tuned on the Samsum dataset to achieve a ROUGE-1 score of 23%. The project includes a FastAPI-based backend for API services and a Vite-powered React frontend for user interaction.
 
@@ -35,11 +49,6 @@ The SummifyAI project aims to provide an efficient solution for summarizing vari
 - **Database**: MongoDB
 - **Authentication**: Clerk
 - **Development Tools**: Jupyter Notebook, Postman (for model testing)
-
-## Demo
-Check out the demo video of the SummifyAI application:
-
-[![Watch the video](./Screenshot/homeDark.png)](https://youtu.be/_7cHaofl5uA)
 
 ## Screenshots
 
