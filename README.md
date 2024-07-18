@@ -16,10 +16,9 @@ SummifyAI is an advanced text summarization project that utilizes the cutting-ed
 
 ## Demo
 To explore the SummifyAI application, use the following demo credentials:
-```sh
-- **Email**: **`demo@example.com`**
-- **Password**: **`demoPassword123`**
-```
+-Email ```sh: demo@example.com` ```
+Password ```sh: `demoPassword123```
+
 
 ### Live Website
 Access the live SummifyAI application here: [SummifyAI Live](https://your-website-url.com)
