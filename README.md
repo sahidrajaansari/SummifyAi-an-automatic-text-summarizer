@@ -16,8 +16,8 @@ SummifyAI is an advanced text summarization tool leveraging the Pegasus model fo
 
 ## Demo
 Explore the SummifyAI application using the following credentials:
-- **Email:** `demo@example.com`
-- **Password:** `demoPassword123`
+- **Email:** ``kimos89467@reebsd.com``
+- **Password:** ``asdfghjkl012``
 
 ### Live Website
 Access the live SummifyAI application [here](https://your-website-url.com).
