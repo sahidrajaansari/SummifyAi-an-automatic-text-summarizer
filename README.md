@@ -1,6 +1,6 @@
-# SummifyAI - An Automatic Text Summarizer
+# SummifyAI - Advanced Text Summarizer
 
-SummifyAI is an advanced text summarization tool leveraging the Pegasus model for generating accurate and coherent summaries of diverse texts, including general content and chat conversations. This project encompasses model training, API development, and a user-friendly web application.
+SummifyAI is an advanced text summarization tool utilizing the Pegasus model to generate concise and coherent summaries for various types of texts, including general content and chat conversations. The project features a comprehensive system with model training, API development, and a user-friendly web application.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -15,15 +15,17 @@ SummifyAI is an advanced text summarization tool leveraging the Pegasus model fo
 - [License](#license)
 
 ## Demo
-Explore the SummifyAI application using the following credentials.
-**Email:**
-  ```sh
-  kimos89467@reebsd.com
-  ```
-**Password:**
-  ```sh
-  asdfghjkl012
-  ```
+Explore the SummifyAI application using the following credentials:
+
+**Email:**  
+```sh
+kimos89467@reebsd.com
+```
+
+**Password:**  
+```sh
+asdfghjkl012
+```
 
 ### Live Website
 Access the live SummifyAI application [here](https://your-website-url.com).
@@ -34,18 +36,18 @@ Watch the demo video of SummifyAI [here](https://youtu.be/_7cHaofl5uA).
 [![Watch the video](./Screenshot/homeDark.png)](https://youtu.be/_7cHaofl5uA)
 
 ## Overview
-SummifyAI efficiently summarizes various types of text using the Pegasus model, fine-tuned on the Samsum dataset to achieve a ROUGE-1 score of 23%. It features a FastAPI backend and a Vite React frontend for a seamless user experience.
+SummifyAI leverages the Pegasus model, fine-tuned on the Samsum dataset with a ROUGE-1 score of 23%, to provide accurate text summaries. The system includes a FastAPI backend and a Vite React frontend for a smooth user experience.
 
 ## Features
-- **State-of-the-Art Summarization:** Utilizes the Pegasus model for high-quality text summaries.
-- **General and Chat Summarization:** Supports summarization for both general text and chat conversations.
-- **API Services:** Managed by FastAPI.
-- **Responsive Web Application:** Developed with Vite React for a modern UI.
-- **State Management:** Context API for efficient state management.
-- **HTTP Requests:** Handled with Axios.
-- **UI Components:** Built using Shadcn/ui.
-- **Database Integration:** MongoDB for data storage.
-- **User Authentication:** Managed by Clerk.
+- **High-Quality Summarization:** Powered by the Pegasus model.
+- **Versatile Summarization:** Supports general and chat text.
+- **API Management:** FastAPI.
+- **Modern UI:** Vite React with Context API.
+- **State Management:** Context API.
+- **HTTP Requests:** Axios.
+- **UI Components:** Shadcn/ui.
+- **Data Storage:** MongoDB.
+- **User Authentication:** Clerk.
 
 ## Tech Stack
 - **Backend:** Python, FastAPI, Node.js
@@ -113,7 +115,7 @@ SummifyAI efficiently summarizes various types of text using the Pegasus model, 
      ```
 
 4. **Model Setup**
-   - Create a virtual environment and activate it:
+   - Create and activate a virtual environment:
      ```sh
      python -m venv venv
      source venv/bin/activate   # On Windows: venv\Scripts\activate
