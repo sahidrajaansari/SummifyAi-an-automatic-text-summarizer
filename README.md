@@ -1,6 +1,6 @@
 # SummifyAI - An Automatic Text Summarizer
 
-SummifyAI is an advanced text summarization project that utilizes the cutting-edge Pegasus model to generate precise and coherent summaries for various types of text, including general content and chat conversations. The project includes model training, API development, and a web application for user interaction.
+SummifyAI is an advanced text summarization tool leveraging the Pegasus model for generating accurate and coherent summaries of diverse texts, including general content and chat conversations. This project encompasses model training, API development, and a user-friendly web application.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -15,44 +15,41 @@ SummifyAI is an advanced text summarization project that utilizes the cutting-ed
 - [License](#license)
 
 ## Demo
-To explore the SummifyAI application, use the following demo credentials:
--Email ```sh: demo@example.com` ```
-Password ```sh: `demoPassword123```
-
+Explore the SummifyAI application using the following credentials:
+- **Email:** `demo@example.com`
+- **Password:** `demoPassword123`
 
 ### Live Website
-Access the live SummifyAI application here: [SummifyAI Live](https://your-website-url.com)
+Access the live SummifyAI application [here](https://your-website-url.com).
 
 ### Demo Video
-Watch the demo video of the SummifyAI application here: [Watch the demo video](https://youtu.be/_7cHaofl5uA)
+Watch the demo video of SummifyAI [here](https://youtu.be/_7cHaofl5uA).
 
 [![Watch the video](./Screenshot/homeDark.png)](https://youtu.be/_7cHaofl5uA)
 
 ## Overview
-The SummifyAI project aims to efficiently summarize various types of text, including chat conversations and general content. It employs the Pegasus text summarization model, fine-tuned on the Samsum dataset to achieve a ROUGE-1 score of 23%. The project features a FastAPI backend for API services and a Vite-powered React frontend for user interaction.
+SummifyAI efficiently summarizes various types of text using the Pegasus model, fine-tuned on the Samsum dataset to achieve a ROUGE-1 score of 23%. It features a FastAPI backend and a Vite React frontend for a seamless user experience.
 
 ## Features
-- **State-of-the-Art Summarization**: Leverages the Pegasus model for high-quality text summarization.
-- **General and Chat Summarization**: Summarizes both general text content and chat conversations.
-- **API Services**: Utilizes FastAPI for handling summarization requests.
-- **Responsive Web Application**: Built with Vite React for a modern UI and smooth user experience.
-- **State Management**: Uses Context API for efficient state management.
-- **HTTP Request Handling**: Manages requests using Axios.
-- **UI Components**: Includes Shadcn/ui for pre-built UI components.
-- **Database Integration**: Employs MongoDB for data storage.
-- **User Authentication**: Integrated with Clerk for frontend authentication.
+- **State-of-the-Art Summarization:** Utilizes the Pegasus model for high-quality text summaries.
+- **General and Chat Summarization:** Supports summarization for both general text and chat conversations.
+- **API Services:** Managed by FastAPI.
+- **Responsive Web Application:** Developed with Vite React for a modern UI.
+- **State Management:** Context API for efficient state management.
+- **HTTP Requests:** Handled with Axios.
+- **UI Components:** Built using Shadcn/ui.
+- **Database Integration:** MongoDB for data storage.
+- **User Authentication:** Managed by Clerk.
 
 ## Tech Stack
-- **Backend**: Python, FastAPI, Node.js
-- **Frontend**: Vite React, Context API, Axios, Shadcn/ui
-- **Model**: Pegasus Text Summarizer
-- **Database**: MongoDB
-- **Authentication**: Clerk
-- **Development Tools**: Jupyter Notebook, Postman
+- **Backend:** Python, FastAPI, Node.js
+- **Frontend:** Vite React, Context API, Axios, Shadcn/ui
+- **Model:** Pegasus Text Summarizer
+- **Database:** MongoDB
+- **Authentication:** Clerk
+- **Development Tools:** Jupyter Notebook, Postman
 
 ## Screenshots
-
-Here are some screenshots of the SummifyAI application:
 
 ### Homepage
 ![Homepage Screenshot](./Screenshot/homeLight.png)
@@ -69,30 +66,26 @@ Here are some screenshots of the SummifyAI application:
 ## Installation
 
 ### Prerequisites
-- Python 3.8 or higher
-- Node.js 14 or higher
+- Python 3.8+
+- Node.js 14+
 - MongoDB
-- npm (Node Package Manager)
+- npm
 
 ### Setup
 
-Follow these steps to set up the project for development:
-
 1. **Clone the Repository**
-   Clone the repository to your local machine:
    ```sh
    git clone https://github.com/your-username/SummifyAI-an-Automatic-text-summarizer.git
    cd SummifyAI-an-Automatic-text-summarizer
    ```
 
 2. **Frontend Setup**
-   Navigate to the `Frontend` directory and set up the environment variables:
-   - Create a `.env` file with the following variables:
+   - Create a `.env` file in the `Frontend` directory with:
      ```
      VITE_MODEL_URL=<URL of the backend API>
      VITE_CLERK_PUBLISHABLE_KEY=<Your Clerk Publishable Key>
      ```
-   - Install dependencies and start the development server:
+   - Install dependencies and start the server:
      ```sh
      cd Frontend
      npm install
@@ -100,14 +93,13 @@ Follow these steps to set up the project for development:
      ```
 
 3. **Backend Setup**
-   Navigate to the `Backend` directory and set up the environment variables:
-   - Create a `.env` file with the following variables:
+   - Create a `.env` file in the `Backend` directory with:
      ```
      MONGODB_URI=<Your MongoDB URI>
-     PORT=<Port number for the backend server>
+     PORT=<Port number>
      MODEL_API_URL=<URL of the model API>
      ```
-   - Install dependencies and start the backend server:
+   - Install dependencies and start the server:
      ```sh
      cd Backend
      npm install
@@ -115,25 +107,24 @@ Follow these steps to set up the project for development:
      ```
 
 4. **Model Setup**
-   Set up the model environment and start the model server:
    - Create a virtual environment and activate it:
      ```sh
      python -m venv venv
      source venv/bin/activate   # On Windows: venv\Scripts\activate
      ```
-   - Install the model dependencies:
+   - Install model dependencies:
      ```sh
      pip install -r requirements.txt
      ```
-   - Run the model server:
+   - Start the model server:
      ```sh
      python app.py
      ```
 
 ## Usage
-1. Ensure both the backend and frontend servers are running.
-2. Open your browser and navigate to `http://localhost:3000` to access the SummifyAI web application.
-3. Authenticate using Clerk and start summarizing your text data.
+1. Ensure both frontend and backend servers are running.
+2. Navigate to `http://localhost:3000` in your browser.
+3. Authenticate using Clerk and start summarizing text data.
 
 ## Project Structure
 ```
@@ -141,45 +132,45 @@ SummifyAI-an-Automatic-text-summarizer/
 │
 ├── Backend/
 │   ├── src/
-│   │   ├── controller/      # Business logic for handling requests
-│   │   ├── db/              # Database configuration and connection
-│   │   ├── models/          # Database models
+│   │   ├── controller/      # Request handling
+│   │   ├── db/              # Database setup
+│   │   ├── models/          # Data models
 │   │   ├── router/          # API routes
-│   │   ├── app.js           # Application setup and middleware
-│   │   └── index.js         # Entry point for the backend server
-│   └── .env                 # Environment variables for the backend
+│   │   ├── app.js           # App setup
+│   │   └── index.js         # Server entry point
+│   └── .env                 # Backend environment variables
 │
 ├── Frontend/
 │   ├── src/
 │   │   ├── components/     # React components
-│   │   ├── Context/        # Context API setup
-│   │   ├── Services/       # API services and requests
-│   │   ├── pages/          # Application pages
-│   │   ├── App.jsx         # Main application file
+│   │   ├── Context/        # Context API
+│   │   ├── Services/       # API services
+│   │   ├── pages/          # App pages
+│   │   ├── App.jsx         # Main app file
 │   │   └── index.js        # Entry point
 │   ├── public/             # Public assets
-│   ├── .env                 # Environment variables for the frontend
-│   ├── package.json        # Frontend dependencies
+│   ├── .env                 # Frontend environment variables
+│   ├── package.json        # Dependencies
 │   └── ...
 │
 ├── Model/
 │   ├── src/
 │   │   ├── textSummarizer/
-│   │   │   ├── config/      # Configuration files
-│   │   │   ├── constant/    # Constants and enums
-│   │   │   ├── entity/      # Data entities and schemas
+│   │   │   ├── config/      # Config files
+│   │   │   ├── constant/    # Constants
+│   │   │   ├── entity/      # Data schemas
 │   │   │   ├── logging/     # Logging setup
-│   │   │   ├── pipeline/    # Data processing pipeline
-│   │   │   └── utils/       # Utility functions
-│   ├── app.py               # API for the model
-│   ├── main.py              # Model training script
-│   └── research/           # Jupyter notebooks for model testing
+│   │   │   ├── pipeline/    # Data pipeline
+│   │   │   └── utils/       # Utilities
+│   ├── app.py               # Model API
+│   ├── main.py              # Training script
+│   └── research/           # Model testing notebooks
 │
 └── README.md               # Project documentation
 ```
 
 ## Contributing
-Contributions are welcome! Please fork this repository and submit a pull request with your changes.
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
