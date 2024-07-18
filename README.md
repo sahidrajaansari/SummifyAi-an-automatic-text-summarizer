@@ -1,6 +1,6 @@
 # SummifyAI - An Automatic Text Summarizer
 
-SummifyAI is an advanced text summarization project that leverages the state-of-the-art Pegasus model to generate concise and accurate summaries for various types of text, including general content and chat conversations. This project includes model training, API creation, and a web application for user interaction.
+SummifyAI is an advanced text summarization project that utilizes the cutting-edge Pegasus model to generate precise and coherent summaries for various types of text, including general content and chat conversations. The project includes model training, API development, and a web application for user interaction.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -15,32 +15,33 @@ SummifyAI is an advanced text summarization project that leverages the state-of-
 - [License](#license)
 
 ## Demo
-To try out the SummifyAI application, use the following demo credentials:
-
+To explore the SummifyAI application, use the following demo credentials:
+```sh
 - **Email**: **`demo@example.com`**
 - **Password**: **`demoPassword123`**
+```
 
 ### Live Website
-You can access the live SummifyAI application here: [SummifyAI Live](https://your-website-url.com)
+Access the live SummifyAI application here: [SummifyAI Live](https://your-website-url.com)
 
 ### Demo Video
-Check out the demo video of the SummifyAI application here: [Watch the demo video](https://youtu.be/_7cHaofl5uA)
+Watch the demo video of the SummifyAI application here: [Watch the demo video](https://youtu.be/_7cHaofl5uA)
 
 [![Watch the video](./Screenshot/homeDark.png)](https://youtu.be/_7cHaofl5uA)
 
 ## Overview
-The SummifyAI project aims to provide an efficient solution for summarizing various types of text, including chat conversations and general content. It utilizes the Pegasus text summarization model, which has been fine-tuned on the Samsum dataset to achieve a ROUGE-1 score of 23%. The project includes a FastAPI-based backend for API services and a Vite-powered React frontend for user interaction.
+The SummifyAI project aims to efficiently summarize various types of text, including chat conversations and general content. It employs the Pegasus text summarization model, fine-tuned on the Samsum dataset to achieve a ROUGE-1 score of 23%. The project features a FastAPI backend for API services and a Vite-powered React frontend for user interaction.
 
 ## Features
-- **State-of-the-Art Summarization**: Uses the Pegasus model for high-quality text summarization.
-- **General and Chat Summarization**: Capable of summarizing both general text content and chat conversations.
-- **API Services**: FastAPI backend for summarization requests.
-- **Responsive Web Application**: Built with Vite React, featuring a modern UI and smooth user experience.
-- **State Management**: Utilizes Context API for efficient state management.
-- **HTTP Request Handling**: Axios for seamless HTTP requests.
-- **UI Components**: Shadcn/ui for ready-to-use UI components.
-- **Database Integration**: MongoDB for data storage.
-- **User Authentication**: Clerk for frontend authentication.
+- **State-of-the-Art Summarization**: Leverages the Pegasus model for high-quality text summarization.
+- **General and Chat Summarization**: Summarizes both general text content and chat conversations.
+- **API Services**: Utilizes FastAPI for handling summarization requests.
+- **Responsive Web Application**: Built with Vite React for a modern UI and smooth user experience.
+- **State Management**: Uses Context API for efficient state management.
+- **HTTP Request Handling**: Manages requests using Axios.
+- **UI Components**: Includes Shadcn/ui for pre-built UI components.
+- **Database Integration**: Employs MongoDB for data storage.
+- **User Authentication**: Integrated with Clerk for frontend authentication.
 
 ## Tech Stack
 - **Backend**: Python, FastAPI, Node.js
@@ -48,7 +49,7 @@ The SummifyAI project aims to provide an efficient solution for summarizing vari
 - **Model**: Pegasus Text Summarizer
 - **Database**: MongoDB
 - **Authentication**: Clerk
-- **Development Tools**: Jupyter Notebook, Postman (for model testing)
+- **Development Tools**: Jupyter Notebook, Postman
 
 ## Screenshots
 
@@ -131,7 +132,7 @@ Follow these steps to set up the project for development:
      ```
 
 ## Usage
-1. Ensure that both the backend and frontend servers are running.
+1. Ensure both the backend and frontend servers are running.
 2. Open your browser and navigate to `http://localhost:3000` to access the SummifyAI web application.
 3. Authenticate using Clerk and start summarizing your text data.
 
